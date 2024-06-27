@@ -1,0 +1,747 @@
+
+/*------------------------------------------------------------------------
+RESET 
+------------------------------------------------------------------------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+/*-------------------- COLORS --------------------------------*/
+
+.black-panter {
+    color: #000;
+}
+
+.snow-white {
+    color: #fff;
+}
+
+.white-coco {
+    color: #F0EDE5;
+}
+
+.orangina {
+    color: #ffde59;
+}
+
+.warm-sand {
+    color: #C0AB8E;
+}
+
+.dark-blue {
+    color: #2E4A62;
+}
+
+.pale-blue {
+    color: #66BAC6;
+}
+
+.grey-blue {
+    color: #556D8E;
+}
+
+.pale-grey {
+    color: #B4B7BA;
+}
+
+/*-------------------- BACKGROUND COLORS --------------------------------*/
+
+.black-panter-back {
+    background-color: #000;
+}
+
+.snow-white-back {
+    background-color: #fff;
+}
+
+.white-coco-back {
+    background-color: #F0EDE5;
+}
+
+.orangina-back {
+    background-color: #ffde59;
+}
+
+.warm-sand-back {
+    background-color: #C0AB8E;
+}
+
+
+
+.pale-blue-back {
+    background-color: #8CCBD5;
+}
+
+.grey-blue-back {
+    background-color: #556D8E;
+}
+
+.pale-grey-back {
+    background-color: #B4B7BA;
+}
+
+
+
+/*---------------------------------------------------------------------------
+                   
+NAVIGATION BAR    
+    
+----------------------------------------------------------------------------*/
+
+
+
+
+
+    #disappear {
+        display: block;
+    }
+    
+    .menu div {
+        display: none;
+        background: transparent;
+    }
+    
+    .menu li{
+
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+            align-items: center;
+        justify-content: center;
+        border-left: 2px solid transparent;
+        border-right: 2px solid transparent;
+        transition: all 1s ease-in-out;
+    }
+    .menu li:hover {
+        transform: scale(1.05);
+        color: #816742;
+    }
+
+    .menu li a {
+        text-decoration: none;
+        color: #a78556;
+        font-size: 1.5em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .home-button {
+        color: #2E4A62 !important;
+    }
+
+
+    .menu-division {
+        border-top: 1px solid red;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+
+    .container {
+        width: 230px;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        top: 16vh;
+    }
+
+    img.logo {
+        width: 100%;
+        height: auto;
+    }
+
+    .name {
+        text-align: center;
+        font-family: 'Allerta Stencil', sans-serif;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    /*---------------------------------------------------------------------------
+                    
+SECOND PAGE - ABOUT  
+    
+----------------------------------------------------------------------------*/
+
+
+    ul {
+        display: flex;
+        padding:1em;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        unicode-bidi: isolate;
+    }
+    .header {
+        display: flex;
+        flex-direction: row;
+        font-size: 2em;
+        text-transform: uppercase;
+        font-family: 'Allerta Stencil', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 3vh;
+    }
+
+    .text {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 3vh;
+    }
+
+    #profile-photo {
+        width: 70%;
+        height: auto;
+        display: block;
+        box-shadow: 1px 1px 5px grey;
+        margin: 1.5em auto 0 auto;
+    }
+
+    .description-desktop {
+        display: none;
+    }
+
+    .description-mobile {
+        list-style-type: none;
+        line-height: 1.5em;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        color: #000;
+        margin-bottom: 2.5em;
+    }
+
+    .text p {
+        width: 100%;
+        font-size: 1em;
+        text-align: left;
+        line-height: 1.5em;
+        font-family: 'Montserrat', sans-serif;
+        margin: 1em auto;
+    }
+
+
+    /*---------------------------------------------------------------------------
+                    
+THIRD PAGE - HIGHLIGHTS  
+    
+----------------------------------------------------------------------------*/
+
+
+    #highlights {
+        width: 100%;
+        height: auto;
+        padding: 4em;
+    }
+
+    article.wrapper {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .wrapper p {
+        font-size: 1em;
+        text-align: left;
+        line-height: 1.3em;
+        font-family: 'Montserrat', sans-serif;
+        margin: 1em auto 0 auto;
+    }
+
+    .skills li {
+        width: 100%;
+        text-align: center;
+        margin: 5vh 0vw;
+        list-style-type: none;
+        font-family: 'Allerta Stencil', sans-serif;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .skills li img {
+        margin: 0 auto;
+        display: block;
+        width: 8em;
+    }
+
+    .icon-construction:hover {
+        content: url("https://res.cloudinary.com/jimbocloud/image/upload/v1561811102/Portfolio/icon-learning.png");
+        margin: 0 auto;
+        display: block;
+        width: 8em;
+    }
+
+
+
+    /*---------------------------------------------------------------------------
+                    
+FOURTH PAGE - TESTIMONIALS  
+    
+----------------------------------------------------------------------------*/
+
+    #testimonials {
+        height: auto;
+        width: 100%;
+        padding-bottom: 4em;
+    }
+
+    .opinions {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .opinions article {
+        width: 100%;
+        display: block;
+        padding: 2vh;
+    }
+
+    .speech-bubble {
+        position: relative;
+        border-radius: .4em;
+        padding: 2em;
+        margin-bottom: 2em;
+    }
+
+    .speech-bubble:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 0;
+        border: 25px solid transparent;
+        border-top-color: #2E4A62;
+        border-bottom: 0;
+        margin-left: -20px;
+        margin-bottom: -20px;
+    }
+
+    .speech-bubble p {
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+    }
+
+
+    .pic-client {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto;
+        border: 2px solid #C0AB8E;
+    }
+
+    .pic-client img {
+        width: 300px;
+        height: auto;
+        display: block;
+        position: relative;
+        right: 50px;
+    }
+
+    h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2em;
+        text-align: center;
+        margin: 0.2em;
+        color: #2E4A62;
+    }
+
+    h5 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1em;
+        text-align: center;
+        font-weight: 400;
+    }
+
+/*---------------------------------------------------------------------------
+                    
+FOOTER  
+    
+----------------------------------------------------------------------------*/
+
+    footer {
+        width: 100%;
+        height: auto;
+        background-color: #C0AB8E;
+        box-shadow: 1px 1px 10px grey;
+        padding: 1em 0;
+    }
+
+    .social-icons {
+        text-align: center;
+    }
+
+    .social-icons img {
+        width: 12vh;
+        height: auto;
+        padding: 1vh;
+        margin: 2vh;
+        display: inline-block;
+    }
+
+    footer .copyright {
+        text-align: center;
+        padding-bottom: 0.8em;
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    .icon {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    .icon:hover {
+        opacity: 1;
+    }
+
+    .impressum {
+        width: 100%;
+        height: auto;
+        margin: 1.2em 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h6 a {
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2em;
+        color: #F0EDE5;
+        font-weight: 400;
+        margin: 0px 10px;
+    }
+    
+    h6 a:hover {
+        color: #fff;
+    }
+
+    .impressum span {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.8em;
+        color: #fff;
+    }
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------
+                   
+Desktop View - Screen MIN 768 px    
+
+----------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1vh) {
+
+    /*------------------------------------------
+    RESET
+    -------------------------------------------*/
+
+    .space-between {
+        width: 100%;
+        height: 14vh;
+        background-color: transparent;
+    }
+
+    /*------------------------------------------
+    LANDING
+    -------------------------------------------*/
+
+    #landing {
+        width: 100%;
+        height: 100vh;
+        background-image: url("https://res.cloudinary.com/jimbocloud/image/upload/v1561811104/Portfolio/background-landing-desktop.jpg");
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+
+/*---------------------------------------------------------------------------
+                   
+NAVIGATION BAR    
+    
+----------------------------------------------------------------------------*/
+
+
+    #desktop-navbar {
+        width: 100%;
+        height: 10vh;
+        position: sticky;
+        top: 0;
+        bottom: 0;
+        z-index: 99;
+        box-shadow: 0px 5px 5px -5px grey;
+    }
+
+    .main-nav {
+        width: 74%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #desktop-navbar .main-nav li {
+        list-style-type: none;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #desktop-navbar .main-nav li a {
+        font-family: 'Allerta Stencil', sans-serif;
+        text-decoration: none;
+        color: #C0AB8E;
+        font-size: 1.2em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .home-button {
+        color: #2E4A62 !important;
+    }
+
+    #desktop-navbar .main-nav li a:hover {
+        border-top: 5px solid #F0EDE5;
+        border-bottom: 5px solid #F0EDE5;
+        color: #2E4A62;
+    }
+
+    .title {
+        width: 56%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    }
+
+    .container {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative;
+        top: 22vh;
+    }
+
+    .name {
+        text-align: center;
+        font-family: 'Allerta Stencil', sans-serif;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    img.logo {
+        width: 200px;
+        height: auto;
+    }
+
+
+    /*---------------------------------------------------------------------------
+                    
+    ABOUT  
+    
+    ----------------------------------------------------------------------------*/
+
+    #about {
+        height: auto;
+        width: 100%;
+        padding-bottom: 5em;
+    }
+
+    .header {
+        background-color: transparent;
+        font-size: 2em;
+        text-transform: uppercase;
+        font-family: 'Allerta Stencil', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 3vh;
+    }
+
+    .information-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .text {
+        width: 40%;
+    
+    }
+
+    .right {
+        margin-top: 2em;
+    }
+
+    #profile-photo {
+        width: 300px;
+        height: auto;
+        box-shadow: 1px 1px 5px grey;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .description-mobile {
+        display: none;
+    }
+
+    .description-desktop {
+        list-style-type: none;
+        line-height: 1.5em;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        color: #000;
+        margin: 1.5em 0em;
+    }
+
+    .text p {
+        width: 100%;
+        font-size: 1em;
+        text-align: left;
+        line-height: 1.5em;
+        font-family: 'Montserrat', sans-serif;
+        margin: 1em auto;
+    }
+
+
+    /*---------------------------------------------------------------------------
+                    
+    HIGHLIGHTS  
+    
+    ----------------------------------------------------------------------------*/
+
+
+    #highlights {
+        width: 100%;
+        height: auto;
+        padding-bottom: 5em;
+    }
+
+    article.wrapper {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .wrapper p {
+        font-size: 1em;
+        text-align: left;
+        line-height: 1.3em;
+        font-family: 'Montserrat', sans-serif;
+        margin: 1em auto 0 auto;
+    }
+
+    .skills {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .skills li {
+        text-align: center;
+        margin: 5vh 0vw;
+        list-style-type: none;
+        font-family: 'Allerta Stencil', sans-serif;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .skills li img {
+        margin: 0 auto;
+        display: block;
+        width: 8em;
+    }
+
+    .icon-construction:hover {
+        content: url("https://res.cloudinary.com/jimbocloud/image/upload/v1561811102/Portfolio/icon-learning.png");
+        margin: 0 auto;
+        display: block;
+        width: 8em;
+    }
+
+
+
+
+    /*---------------------------------------------------------------------------
+                    
+    CONTACT  
+    
+----------------------------------------------------------------------------*/
+
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact {
+    margin: 20px ;
+    background-color: #fff;
+    display: inline;
+}
+.contact h2 {
+    text-align: center;
+}
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+.contact li {
+    padding: 5px ;
+}
+
+    .pdf-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 80%;
+        height: 600px;
+        margin: 20px 0;
+    }
